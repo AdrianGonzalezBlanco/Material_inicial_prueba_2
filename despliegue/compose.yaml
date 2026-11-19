@@ -1,0 +1,7 @@
+name: prueba2-${ALUMNO}
+services:
+  web:
+    build: .
+    image: rec-web-p06:2.1
+    ports:
+      - ${IP_APP}:8080:80
